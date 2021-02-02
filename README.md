@@ -34,7 +34,7 @@ sudo systemctl restart postgresql
 
 ```sh
 docker build  . -t apipostgresql
-docker run -it -p 5000:5000 -name api-flask  apipostgresql
+docker run -it -p 5000:5000 --name api-flask  apipostgresql
 ```
 
 ### Comando inicial de la base de datos
